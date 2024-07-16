@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "pantastic",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}

@@ -93,6 +93,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "pantastic:build:production",
+              "serveTarget": "pantastic:serve:production"
+            },
+            "development": {
+              "buildTarget": "pantastic:build:development",
+              "serveTarget": "pantastic:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

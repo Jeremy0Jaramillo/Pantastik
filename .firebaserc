@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "pantastik-d4954": {
+      "hosting": {
+        "pantastic": [
+          "pantastik-d4954"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "pantastik-d4954"
+  }
+}
